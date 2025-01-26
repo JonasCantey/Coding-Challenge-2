@@ -21,3 +21,19 @@ const average = sum / scores.length;
  
 console.log(scores)
 console.log(average);
+
+//Task Three
+console.log("Task Three")
+
+let employee = {
+    name: "Jane Romero",
+    age: 24,
+    department: "Sales",
+    isActive: true
+};
+employee.department = "HR";
+employee.position = "Talent Acquisition";
+
+
+
+console.log(employee)
