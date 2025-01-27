@@ -68,3 +68,21 @@ customers.push(Andrew);
 
 
 console.log(customers)
+
+//Task Five
+console.log("Task Five")
+
+let order = {
+    orderID: "45FD7",
+    customerName: "Juan Lebro",
+    amount: 45000,
+};
+
+let amount = order.amount
+let taxAmount = amount * 0.1
+
+
+
+console.log(order);
+console.log(taxAmount);
+
