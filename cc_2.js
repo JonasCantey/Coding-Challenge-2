@@ -37,3 +37,34 @@ employee.position = "Talent Acquisition";
 
 
 console.log(employee)
+
+//Task Four
+console.log("Task Four")
+
+let Jason = {
+    name: "Jason Samoa",
+    email: "JS4431@gmail.com",
+    purchaseAmount: 4451,
+};
+let Michelle = {
+    name: "Michelle Vancouver",
+    email: "MVuop92@gmail.com",
+    purchaseAmount: 1021,
+
+};
+let Michael = {
+    name: "Michael Bublae",
+    email: "MB5571@gmail.com",
+    purchaseAmount: 14232,
+};
+let Andrew = {
+    name: "Andrew Smith",
+    email: "AS321@gmail.com",
+    purchaseAmount: 3400
+}
+
+let customers = [Jason, Michelle, Michael]
+customers.push(Andrew);
+
+
+console.log(customers)
